@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API = 'https://actors-for-deploy-1.onrender.com';
+const API = 'https://actors-for-deploy-1.onrender.com/actors';
 
 function App() {
   const [actors, setActors] = useState([]);
